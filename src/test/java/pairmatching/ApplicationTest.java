@@ -13,6 +13,14 @@ class ApplicationTest extends NsTest {
 
     private static final String ERROR_MESSAGE = "[ERROR]";
 
+
+    //홀수인원페어매칭
+
+    //재매칭시초기화테스트
+
+    //미션에중복된매칭있는경우에러테스트
+
+    //존재하지않는뷰에대한 테스트
     @Test
     void 짝수_인원_페어_매칭() {
         assertShuffleTest(
